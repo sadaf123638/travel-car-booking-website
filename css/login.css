@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: rgb(255, 255, 255);
+}
+.login-page{
+    margin-top: 7%;
+    margin-bottom: 7%;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 6px -6px black;
+}
+.login-info{
+    padding-top: 20%;
+    padding-bottom: 10%;
+}
+.login-info h3{
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+}
+.login-info p{
+    font-size: 10px;
+    line-height: 1;
+    text-align: center;
+}
+.login-info .font-icon{
+    text-align: center;
+}
+.font-icon .fa-facebook-f{
+    padding-top: 9px;
+    font-size: 12px;
+    background: rgb(3, 3, 59);
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.font-icon .fa-google-plus-g{
+    padding-top: 9px;
+    font-size: 12px;
+    background: rgb(218, 48, 26);
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.font-icon .fa-linkedin-in{
+    padding-top: 9px;
+    font-size: 12px;
+    background: rgb(3, 3, 59);
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.login-info .saperator{
+    text-align: center;
+    font-size: 10px;
+    font-weight: 700;
+    margin: 1.5rem 0;
+}
+.login-info .form-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-info input{
+    border: 2px solid rgb(95, 94, 94);
+    border-radius: 50px;
+    width: 350px;
+}
+
+.login-info .btn-button button{
+    width: 100px;
+    border-radius: 50px;
+    background: rgb(108, 216, 192);
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+/*login-description*/
+.login-description{
+    padding-top: 40%;
+    background-image: url(../images/bgimg.jpg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    height: 530px;
+    border-radius: 10px;
+}
+.login-description h1{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+}
+.login-description p{
+    color: white;
+    text-align: center;
+    line-height: 1;
+    font-size: 13px;
+}
+.login-description .btn-button2 a {
+    background: white;
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    width: 100px;
+}
